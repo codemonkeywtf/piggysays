@@ -1,6 +1,7 @@
 use std::io::stdin;
 
 pub mod parse_words;
+pub mod piglatin;
 
 pub fn get_words(prompt: String) -> Vec<String> {
     let mut word = String::new();

@@ -1,13 +1,13 @@
 use std::env;
 
 mod character;
-mod piglatin;
+// mod piglatin;
 mod words;
 
 use crate::character::wilbur;
-use crate::piglatin::piggy_says::piggy_latin;
 use crate::words::get_words;
 use crate::words::parse_words::parsed_words::parse;
+use crate::words::piglatin::piggy_says::piggy_latin;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
